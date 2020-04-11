@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles__cuda.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700&display=swap"
+          rel="stylesheet">
+    <title>Ebal infiz</title>
+</head>
+<body>
+
+<!--<script>-->
+<!--    function throttle(func, ms) {-->
+<!--        let isThrottled = false,-->
+<!--            savedArgs,-->
+<!--            savedThis;-->
+
+<!--        function wrapper() {-->
+<!--            if (isThrottled) {-->
+<!--                // (2)-->
+<!--                savedArgs = arguments;-->
+<!--                savedThis = this;-->
+<!--                return;-->
+<!--            }-->
+
+<!--            func.apply(this, arguments); // (1)-->
+
+<!--            isThrottled = true;-->
+
+<!--            setTimeout(function () {-->
+<!--                isThrottled = false; // (3)-->
+<!--                if (savedArgs) {-->
+<!--                    wrapper.apply(savedThis, savedArgs);-->
+<!--                    savedArgs = savedThis = null;-->
+<!--                }-->
+<!--            }, ms);-->
+<!--        }-->
+
+<!--        return wrapper;-->
+<!--    }-->
+
+<!--    const elem = document.querySelector(".introduction .header");-->
+<!--    window.addEventListener(-->
+<!--        "scroll",-->
+<!--        throttle(function (event) {-->
+<!--            if (window.pageYOffset > 60) {-->
+<!--                elem.classList.remove("header_sticky");-->
+<!--            } else {-->
+<!--                elem.classList.add("header_sticky");-->
+<!--            }-->
+<!--        }, 300),-->
+<!--        {passive: true}-->
+<!--    );-->
+
+<!--</script>-->
+
+
+<div class="introduction section">
+    <div class="clip">
+        <header class="header header_sticky">
+            <div class="container header__container">
+                <div class="logo">
+                    <img src="img/logo.png" alt="zhopa">
+                </div>
+
+                <nav class="nav">
+                    <a href="#" class="nav__link link">home</a>
+                    <a href="#" class="nav__link link">about</a>
+                    <a href="#" class="nav__link link">work</a>
+                    <a href="#" class="nav__link link">blog</a>
+                    <a href="#" class="nav__link link">contact</a>
+                </nav>
+
+            </div>
+        </header>
+    </div>
+
+    <div class="container introduction__container">
+        <h1 class="heading">
+            Hi there! We are the new kids on the block<br>
+            and we build awesome websites and mobile apps.
+        </h1>
+
+        <a href="#" class="link-button link">WORK WITH US!</a>
+
+    </div>
+</div>
+
+
+<div class="services section">
+    <div class="clip">
+        <header class="header">
+            <div class="container header__container">
+                <div class="logo">
+                    <img src="img/logo.png" alt="zhopa">
+                </div>
+
+                <nav class="nav">
+                    <a href="#" class="nav__link link">home</a>
+                    <a href="#" class="nav__link link">about</a>
+                    <a href="#" class="nav__link link">work</a>
+                    <a href="#" class="nav__link link">blog</a>
+                    <a href="#" class="nav__link link">contact</a>
+                </nav>
+
+            </div>
+        </header>
+    </div>
+
+    <div class="container">
+
+        <div class="block-title">
+            <h1 class="block-title__heading">
+                SERVICES WE PROVIDE
+            </h1>
+
+            <hr class="block-title__hr">
+
+            <p class="block-title__subheading">
+                We are working with both individuals and businesses from all over the globe
+                to create awesome websites and applications.
+            </p>
+        </div>
+        <div class="services__content">
+
+            <div class="content-block">
+                <div class="content-block__image-wrap">
+                    <img src="img/flag icon.png" alt="" class="content-block__image">
+                </div>
+
+                <h1 class="content-block__title">Branding</h1>
+
+                <p class="content-block__text">Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+
+            </div>
+
+            <div class="content-block">
+                <div class="content-block__image-wrap">
+                    <img src="img/crayon icon.png" alt="" class="content-block__image">
+                </div>
+                <h1 class="content-block__title">Design</h1>
+
+                <p class="content-block__text">Sed ut perspiciatis unde
+                    omnis iste natus error sit voluptatem </p>
+            </div>
+
+            <div class="content-block">
+                <div class="content-block__image-wrap">
+                    <img src="img/gears icon.png" alt="" class="content-block__image">
+                </div>
+                <h1 class="content-block__title">Development</h1>
+
+                <p class="content-block__text">At vero eos et accusamus et iusto
+                    odio dignissimos qui blanditiis praesentium.</p>
+            </div>
+
+            <div class="content-block">
+                <div class="content-block__image-wrap">
+                    <img src="img/rocket icon.png" alt="" class="content-block__image">
+                </div>
+                <h1 class="content-block__title">Rocket science</h1>
+
+                <p class="content-block__text">Et harum quidem rerum est et
+                    expedita distinctio. Nam libero tempore.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="team section">
+    <div class="container">
+
+        <div class="clip">
+            <header class="header">
+                <div class="container header__container">
+                    <div class="logo">
+                        <img src="img/logo_black.png" alt="zhopa">
+                    </div>
+
+                    <nav class="nav">
+                        <a href="#" class="nav__link link">home</a>
+                        <a href="#" class="nav__link link">about</a>
+                        <a href="#" class="nav__link link">work</a>
+                        <a href="#" class="nav__link link">blog</a>
+                        <a href="#" class="nav__link link">contact</a>
+                    </nav>
+
+                </div>
+            </header>
+        </div>
+
+        <div class="block-title">
+            <h1 class="block-title__heading">
+                MEET OUR BEAUTIFUL TEAM
+            </h1>
+
+            <hr class="block-title__hr">
+
+            <p class="block-title__subheading">
+                We are a small team of designers and developers, who help brands with big ideas.
+            </p>
+        </div>
+
+        <div class="team__content">
+
+            <div class="services__content">
+
+                <div class="content-block">
+                    <div class="content-block__image-wrap">
+                        <img src="img/base.png" alt="" class="content-block__image">
+                    </div>
+
+                    <h1 class="content-block__title">ANNE HATHAWAY</h1>
+
+                    <h2 class="content-block__position">CEO / Marketing Guru</h2>
+
+                    <p class="content-block__text">Lorem ipsum dolor sit amet,
+                        consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                        tincidunt ut laoreet dolore magna.</p>
+
+                    <div class="content-block__contacts">
+
+
+                        <a href="#" class="social-link content-block__social-link">
+                            <img src="img/Fb%20icon.png" alt="" class="social-link__image">
+                        </a>
+                        <a href="#" class="social-link content-block__social-link">
+                            <img src="img/Twitter%20icon.png" alt="" class="social-link__image">
+                        </a>
+                        <a href="#" class="social-link content-block__social-link">
+                            <img src="img/LinkedIn%20icon.png" alt="" class="social-link__image">
+                        </a>
+                        <a href="#" class="social-link content-block__social-link">
+                            <img src="img/Mail%20icon.png" alt="" class="social-link__image">
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+                <div class="content-block">
+                    <div class="content-block__image-wrap">
+                        <img src="img/base.png" alt="" class="content-block__image">
+                    </div>
+                    <h1 class="content-block__title">Kate Upton</h1>
+
+                    <h2 class="content-block__position">Creative Director</h2>
+
+                    <p class="content-block__text">Duis aute irure dolor in in voluptate
+                        velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat
+                        non diam proident. </p>
+
+                    <div class="content-block__contacts">
+
+                        <a href="#" class="social-link content-block__social-link">
+                            <img src="img/Twitter%20icon.png" alt="" class="social-link__image">
+                        </a>
+                        <a href="#" class="social-link content-block__social-link">
+                            <img src="img/LinkedIn%20icon.png" alt="" class="social-link__image">
+                        </a>
+                        <a href="#" class="social-link content-block__social-link">
+                            <img src="img/Mail%20icon.png" alt="" class="social-link__image">
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+                <div class="content-block">
+                    <div class="content-block__image-wrap">
+                        <img src="img/base.png" alt="" class="content-block__image">
+                    </div>
+                    <h1 class="content-block__title">Olivia Wilde</h1>
+
+                    <h2 class="content-block__position">Lead Designer</h2>
+
+                    <p class="content-block__text">Nemo enim ipsam voluptas sit aspernatur aut odit
+                        aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                        voluptatem nesciunt.</p>
+
+                    <div class="content-block__contacts">
+
+                            <a href="#" class="social-link content-block__social-link">
+                                <img src="img/Fb%20icon.png" alt="" class="social-link__image">
+                            </a>
+                            <a href="#" class="social-link content-block__social-link">
+                                <img src="img/Twitter%20icon.png" alt="" class="social-link__image">
+                            </a>
+                            <a href="#" class="social-link content-block__social-link">
+                                <img src="img/LinkedIn%20icon.png" alt="" class="social-link__image">
+                            </a>
+                            <a href="#" class="social-link content-block__social-link">
+                                <img src="img/Mail%20icon.png" alt="" class="social-link__image">
+                            </a>
+
+                    </div>
+
+                </div>
+
+                <div class="content-block">
+                    <div class="content-block__image-wrap">
+                        <img src="img/base.png" alt="" class="content-block__image">
+                    </div>
+                    <h1 class="content-block__title">Ashley Greene</h1>
+
+                    <h2 class="content-block__position">SEO / Developer</h2>
+
+                    <p class="content-block__text">Sed ut perspiciatis unde omnis iste natus error sit
+                        voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+
+                    <div class="content-block__contacts">
+
+                        <a href="#" class="social-link content-block__social-link">
+                            <img src="img/Fb%20icon.png" alt="" class="social-link__image">
+                        </a>
+                        <a href="#" class="social-link content-block__social-link">
+                            <img src="img/Twitter%20icon.png" alt="" class="social-link__image">
+                        </a>
+                        <a href="#" class="social-link content-block__social-link">
+                            <img src="img/Mail%20icon.png" alt="" class="social-link__image">
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="skills section">
+    <div class="container">
+
+        <div class="clip">
+            <header class="header">
+                <div class="container header__container">
+                    <div class="logo">
+                        <img src="img/logo_black.png" alt="zhopa">
+                    </div>
+
+                    <nav class="nav">
+                        <a href="#" class="nav__link link">home</a>
+                        <a href="#" class="nav__link link">about</a>
+                        <a href="#" class="nav__link link">work</a>
+                        <a href="#" class="nav__link link">blog</a>
+                        <a href="#" class="nav__link link">contact</a>
+                    </nav>
+
+                </div>
+            </header>
+        </div>
+
+        <div class="block-title">
+            <h1 class="block-title__heading">
+                WE GOT SKILLS!
+            </h1>
+
+            <hr class="block-title__hr">
+
+            <p class="block-title__subheading">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
+
+        <div class="skills__content">
+
+        </div>
+    </div>
+</div>
+
+
+<div class="portfolio section">
+    <div class="container">
+
+        <div class="clip">
+            <header class="header">
+                <div class="container header__container">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="zhopa">
+                    </div>
+
+                    <nav class="nav">
+                        <a href="#" class="nav__link link">home</a>
+                        <a href="#" class="nav__link link">about</a>
+                        <a href="#" class="nav__link link">work</a>
+                        <a href="#" class="nav__link link">blog</a>
+                        <a href="#" class="nav__link link">contact</a>
+                    </nav>
+
+                </div>
+            </header>
+        </div>
+
+        <div class="block-title">
+            <h1 class="block-title__heading">
+                OUR PORTFOLIO
+            </h1>
+
+            <hr class="block-title__hr">
+
+            <p class="block-title__subheading">
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
+                consectetur, adipisci velit, sed quia non numquam
+            </p>
+
+            <!--            <div class="block-title-portfolio__link">-->
+            <!--                <a href="#" class="portfolio__link">all</a>-->
+            <!--                <a href="#" class="portfolio__link">web</a>-->
+            <!--                <a href="#" class="portfolio__link">apps</a>-->
+            <!--                <a href="#" class="portfolio__link">icons</a>-->
+
+            <!--            </div>-->
+
+
+        </div>
+
+        <div class="portfolio__content">
+
+            <div class="portfolio-content-portfolio__link">
+                <a href="#" class="portfolio__link">all</a>
+                <a href="#" class="portfolio__link">web</a>
+                <a href="#" class="portfolio__link">apps</a>
+                <a href="#" class="portfolio__link">icons</a>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+    function throttle(func, ms) {
+        let isThrottled = false,
+            savedArgs,
+            savedThis;
+
+        function wrapper() {
+            if (isThrottled) {
+                // (2)
+                savedArgs = arguments;
+                savedThis = this;
+                return;
+            }
+
+            func.apply(this, arguments); // (1)
+
+            isThrottled = true;
+
+            setTimeout(function () {
+                isThrottled = false; // (3)
+                if (savedArgs) {
+                    wrapper.apply(savedThis, savedArgs);
+                    savedArgs = savedThis = null;
+                }
+            }, ms);
+        }
+
+        return wrapper;
+    }
+
+    const elem = document.querySelector(".introduction .header");
+    window.addEventListener(
+        "scroll",
+        throttle(function (event) {
+            if (window.pageYOffset > 60) {
+                elem.classList.remove("header_sticky");
+            } else {
+                elem.classList.add("header_sticky");
+            }
+        }, 300),
+        {passive: true}
+    );
+
+</script>
+</body>
+</html>
