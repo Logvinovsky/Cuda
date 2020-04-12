@@ -2,9 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link href="styles__cuda.css" type = "text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Cuda</title>
 </head>
 <body>
+
+<header class="header">
+
+    <div class="container header__container ">
+        <div class="logo">
+            <img src="img/logo.png" alt="logo">
+        </div>
+
+        <nav class="nav">
+            <a href="#" class="nav__link link">home</a>
+            <a href="#" class="nav__link link">about</a>
+            <a href="#" class="nav__link link">work</a>
+            <a href="#" class="nav__link link">blog</a>
+            <a href="#" class="nav__link link">contact</a>
+        </nav>
+    </div>
+
+
+</header>
+
+
+<div class="introduction section ">
+    <div class="introduction__container container">
+    <h1 class="heading">
+        Hi there! We are the new kids on the block<br>
+        and we build awesome websites and mobile apps.
+    </h1>
+
+    <a href="#" class="link link-button">WORK WITH US!</a>
+    </div>
+</div>
+
+<div class="services">
+
+
+</div>
+
+<script>
+    function throttle(func, ms) {
+        let isThrottled = false,
+            savedArgs,
+            savedThis;
+
+        function wrapper() {
+            if (isThrottled) {
+// (2)
+                savedArgs = arguments;
+                savedThis = this;
+                return;
+            }
+
+            func.apply(this, arguments); // (1)
+
+            isThrottled = true;
+
+            setTimeout(function () {
+                isThrottled = false; // (3)
+                if (savedArgs) {
+                    wrapper.apply(savedThis, savedArgs);
+                    savedArgs = savedThis = null;
+                }
+            }, ms);
+        }
+
+        return wrapper;
+    }
+
+    window.addEventListener(
+        "scroll",
+        throttle(function (event) {
+            const elem = document.querySelector(".intro .header");
+            if (window.pageYOffset > 80) {
+                elem.classList.remove("header_sticky");
+            } else {
+                elem.classList.add("header_sticky");
+            }
+        }, 100),
+        {passive: true}
+    );
+</script>
 
 </body>
 </html>
