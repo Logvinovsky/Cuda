@@ -246,7 +246,8 @@ body {
 /*тут добавил высоту*/
 .team{
     background-color: #e7f1f8;
-    height: 100vh;
+    /*height: 100vh;*/
+    /* убрал,т.к там больше 100вх,спросить у артема*/
 }
 
 .content-block__position{
