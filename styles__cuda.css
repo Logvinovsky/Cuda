@@ -292,6 +292,8 @@ body {
     flex:1;
     align-items:  flex-end;
     margin: 25px 0 0;
+    /*добавил*/
+    justify-content: space-between;
 
 }
 .social-link__image{
