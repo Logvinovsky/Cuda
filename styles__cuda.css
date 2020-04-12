@@ -133,6 +133,8 @@ body {
     display: block;
     line-height: 70px;
     border-radius: 4px;
+    text-transform: uppercase;
+
 }
 
 .link-button:hover {
@@ -343,7 +345,7 @@ body {
 
 .portfolio{
     background-color: #ffdd99;
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 .portfolio .header{
@@ -391,4 +393,42 @@ body {
 .portfolio__link:hover{
     background-color: #75ff91;
 }
+
+.work-examples{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.work-examples__image{
+    margin-left: 15px;
+}
+
+.work-examples__name{
+
+    height: 14px;
+    color: #393939;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.36px;
+    text-align: center;
+    margin-top:30px;
+}
+
+.work-examples__example-3, .work-examples__example-4{
+    margin-top: 65px;
+
+}
+
+.work-examples .link-button{
+    background-color: #17c2a4;
+}
+
+.work-examples .link-button:hover{
+    background-color: #10917b;
+}
+
 
