@@ -79,7 +79,8 @@ body {
 
 .nav {
     display: flex;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .nav__link {
@@ -147,6 +148,10 @@ body {
 
 }
 
+.services .nav__link:hover{
+    background-color: #10ac8f;
+}
+
 .section {
     position: relative;
     padding-top: 120px;
@@ -187,7 +192,6 @@ body {
 .block-title__subheading {
 
     text-align: center;
-    /*height: 45px;*/
     color: #ffffff;
     font-size: 18px;
     font-weight: 400;
@@ -264,17 +268,21 @@ body {
     color: #3c4761;
 }
 
+.team .nav__link:hover{
+    background-color: #cbd4d9;
+}
+
 .team .block-title__heading{
 
     color: #3c4761;
 
 }
 
-.block-title__subheading{
+/*.block-title__subheading{*/
 
-    color: #3c4761;
+/*    color: #3c4761;*/
 
-}
+/*}*/
 
 .team .content-block__title {
 
@@ -327,6 +335,10 @@ body {
 
 .skills .nav__link{
     color: #3c4761;
+}
+
+.skills .nav__link:hover{
+    background-color: #dddbdb;
 }
 
 .skills .block-title__heading{
@@ -432,3 +444,15 @@ body {
 }
 
 
+.about{
+    height: 100vh;
+    background-color: #d74680;
+}
+
+.about .header{
+    background-color: #d74680;
+}
+
+.about .nav__link:hover{
+    background-color: #9b2b58;
+}
