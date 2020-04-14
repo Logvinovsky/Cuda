@@ -542,6 +542,36 @@ body {
 
 }
 
+
+.feedback{
+
+    background-color: #3c5499;
+    height: 100vh;
+
+}
+
+.feedback .header{
+
+    background-color: #3c5499;
+
+}
+
+.feedback .nav__link:hover{
+
+    background-color: #2a3d73;
+
+}
+
+.feedback .block-title__subheading{
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 782px;
+}
+
+
+
 .footer{
     background-color: #344b8e;
 
