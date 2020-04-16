@@ -551,7 +551,7 @@ body {
 .feedback{
 
     background-color: #3c5499;
-    height: 100vh;
+    /*height: 100vh;*/
 
 }
 
@@ -575,6 +575,72 @@ body {
     max-width: 782px;
 }
 
+.feedback__content{
+
+    display: flex;
+    justify-content: space-between;
+    /*margin: 75px 0 0;*/
+
+}
+
+
+.form{
+    margin: 75px 0 0;
+}
+
+.form__username{
+
+    background-color: #273a71;
+    max-width: 414px;
+    max-height: 56px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 25px 300px 20px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0 16px 0;
+
+}
+
+.form__message{
+
+
+    max-width: 865px;
+    min-height: 200px;
+    background-color: #273a71;
+    border: 0;
+    margin: 27px 16px 0 ;
+    border-radius: 5px;
+    padding: 25px 720px 160px 25px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+
+
+}
+
+.form__button{
+
+    min-width: 293px;
+    min-height: 70px;
+    background-color: #30bae7;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 0;
+    border-radius:5px;
+    margin: 60px auto 0;
+
+
+}
+
+.form__button:hover{
+
+    background-color: #249cc1;
+    
+}
 
 
 .footer{
