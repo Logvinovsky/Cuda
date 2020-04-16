@@ -426,6 +426,13 @@ body {
 
 .portfolio .link-button:hover{
 
+    background-color: #139b83;
+    transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+
+}
+
+.portfolio__link:hover{
+
     background-color: #75ff91;
 
 }
@@ -433,7 +440,7 @@ body {
 .work-examples{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 60px;
+    margin-top: -3px;
     justify-content: space-between;
 }
 
@@ -454,8 +461,8 @@ body {
     margin-top:30px;
 }
 
-.work-examples__block-m{
-    margin-top: 65px;
+.work-examples__block{
+    margin: 65px auto 0;
 
 }
 
@@ -487,24 +494,22 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 82px;
-
-
+    margin-top: -80px;
 }
 
 .review{
 
     display: flex;
     flex-wrap: wrap;
-
-
-}
-
-.review-margin{
-
-    margin-top: 150px;
+    margin: 160px auto 0;
 
 }
+
+/*.review-margin{*/
+
+/*    margin-top: 150px;*/
+
+/*}*/
 
 .review__content{
 
