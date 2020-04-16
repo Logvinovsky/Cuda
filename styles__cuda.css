@@ -577,15 +577,28 @@ body {
 
 .feedback__content{
 
-    display: flex;
-    justify-content: space-between;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
     /*margin: 75px 0 0;*/
 
 }
 
 
-.form{
+/*.form{*/
+
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    margin: 75px 0 0;*/
+/*    justify-content: center;*/
+/*}*/
+
+.form__content{
+
+    display: flex;
+    flex-wrap: wrap;
     margin: 75px 0 0;
+    justify-content: center;
+
 }
 
 .form__username{
