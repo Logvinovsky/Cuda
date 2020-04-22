@@ -26,7 +26,7 @@ body {
     width: 100%;
     position: fixed;
     pointer-events: all;
-
+    z-index:1;
 }
 
 .header_sticky {
@@ -361,6 +361,98 @@ body {
 }
 
 
+.skills__content{
+
+    margin-top: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.skills-content__circle{
+
+    max-width: 260px;
+
+}
+
+.skills__content svg{
+
+    margin: 0 40px 0;
+
+}
+.progress-ring{
+    /*color: #2a3d73;*/
+    /*background-color: #3c4761;*/
+    position: relative;
+}
+
+.skill-name{
+
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-top: 30px;
+
+}
+
+.skills__content input{
+
+    height: 50px;
+    width: 50px;
+    /*position: fixed;*/
+    /*top: 10px;*/
+    /*left: 10px;*/
+    /*width: 80px;*/
+    /*position: relative;*/
+    /*bottom: 120px;*/
+    /*left: 105px;*/
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate( -50%, -50%);
+    text-align: center;
+    font-size: 30px;
+    border: none;
+
+}
+
+.skills__content circle{
+   stroke: #30bae7;
+
+}
+
+.circle-1 circle{
+
+    stroke: #d74680;
+
+}
+.circle-2 circle{
+
+    stroke: #15c7a8;
+
+}
+
+.circle-3 circle{
+
+    stroke: #eb7d4b;
+
+}
+
+.progress-ring__circle{
+
+    /*color: #2a3d73;*/
+    /*background-color: #636f8f;*/
+    /*stroke-dasharray: 10;*/
+    transition: stroke-dashoffset 0.35s;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+
+}
+
+
 
 .portfolio{
     background-color: #ffdd99;
@@ -601,6 +693,23 @@ body {
 
 }
 
+.form__content input::placeholder{
+
+    color: #ffffff;
+    font-size: 18px;
+    opacity: 90%;
+
+}
+
+.form__content textarea::placeholder{
+
+    color: #ffffff;
+    font-size: 18px;
+    opacity: 90%;
+
+}
+
+
 .form__username{
 
     background-color: #273a71;
@@ -609,11 +718,12 @@ body {
     border: none;
     border-radius: 5px;
     color: #ffffff;
-    padding: 25px 300px 20px 20px;
+    padding: 20px;
     font-size: 18px;
     font-weight: 400;
     line-height: 18px;
     margin: 0 16px 0;
+    width: calc( 50% - 32px);
 
 }
 
@@ -626,11 +736,12 @@ body {
     border: 0;
     margin: 27px 16px 0 ;
     border-radius: 5px;
-    padding: 25px 720px 160px 25px;
+    padding: 25px;
     color: #ffffff;
     font-size: 18px;
     font-weight: 400;
     line-height: 18px;
+    width:100%;
 
 
 }
