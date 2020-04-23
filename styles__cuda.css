@@ -429,6 +429,8 @@ body {
     stroke: #d74680;
 
 }
+
+
 .circle-2 circle{
 
     stroke: #15c7a8;
@@ -452,6 +454,103 @@ body {
 
 }
 
+.skills-pure{
+
+    height: 100vh;
+    background-color: mediumslateblue;
+
+}
+
+.skills-pure .header{
+    background-color: mediumslateblue;
+}
+
+.skills-pure svg{
+
+    position: relative;
+    width: 150px;
+    height: 150px;
+    /*z-index: 1000;*/
+
+}
+
+
+.circles{
+
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    text-align: center;
+}
+
+.skills-pure svg circle{
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: #dfe8ed;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate( 5px, 5px);
+
+}
+
+.percent{
+
+    position: relative;
+
+}
+
+.number{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+
+}
+
+.skills-pure svg circle:nth-child(2){
+
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+
+}
+
+.card:nth-child(1) svg circle:nth-child(2){
+
+    stroke-dashoffset: calc( 440 - (440 * 90) / 100);
+    stroke: #30bae7;
+
+}
+
+.card:nth-child(2) svg circle:nth-child(2){
+
+    stroke-dashoffset: calc( 440 - (440 * 75) / 100);
+    stroke: #d74680;
+
+}
+
+.card:nth-child(3) svg circle:nth-child(2){
+
+    stroke-dashoffset: calc( 440 - (440 * 70) / 100);
+    stroke: #15c7a8;
+
+}
+
+.card:nth-child(4) svg circle:nth-child(2){
+
+    stroke-dashoffset: calc( 440 - (440 * 85) / 100);
+    stroke: #eb7d4b;
+
+}
 
 
 .portfolio{
