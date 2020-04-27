@@ -702,12 +702,13 @@ body {
 
 /*}*/
 
-.review__content{
+.review__content {
 
     margin-left: 50px;
-
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 360px;
 }
-
 .review__text{
 
 
@@ -715,6 +716,15 @@ body {
     font-size: 21px;
     line-height: 31px;
     max-width: 360px;
+
+}
+
+.review__info{
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+    align-self: flex-end;
 
 }
 
