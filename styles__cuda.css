@@ -398,24 +398,29 @@ body {
 
 }
 
-.skills__content input{
+.progress-ring__percent {
 
-    height: 50px;
-    width: 50px;
-    /*position: fixed;*/
-    /*top: 10px;*/
-    /*left: 10px;*/
-    /*width: 80px;*/
-    /*position: relative;*/
-    /*bottom: 120px;*/
-    /*left: 105px;*/
     position: absolute;
     top:50%;
     left:50%;
     transform: translate( -50%, -50%);
+
+}
+
+
+.skills__content input{
+
+    height: 50px;
+    width: 50px;
     text-align: center;
     font-size: 30px;
     border: none;
+
+}
+
+.progress-ring__percent::after{
+
+    content: "%" ;
 
 }
 
