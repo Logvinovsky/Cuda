@@ -113,7 +113,7 @@ body {
     margin: 0;
     color: #f7f3ea;
     /*height: 88px;*/
-    width: 906px;
+    max-width: 906px;
     font-size: 42px;
     line-height: 49px;
     font-weight: 700;
@@ -224,7 +224,7 @@ body {
 }
 
 .content-block__image-wrap {
-    min-height: 140px;
+    max-height: 140px;
 }
 
 .services__content__image {
@@ -415,13 +415,16 @@ body {
     text-align: center;
     font-size: 30px;
     border: none;
+    padding-left: 10px;
 
 }
 
 .progress-ring__percent::after{
 
     content: "%" ;
-
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bolder;
 }
 
 .skills__content circle{
@@ -917,4 +920,26 @@ body {
 
 .footer-nav__link:hover{
     color: #30bae7;
+}
+
+
+@media screen and (max-width: 768px) {
+
+.header{
+    display: none;
+}
+
+.services .content-block{
+    width: calc(25% - 20px);
+}
+
+    .services .content-block__title{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    img{
+        height: 70px;
+    }
+
 }
