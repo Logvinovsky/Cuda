@@ -224,7 +224,7 @@ body {
 }
 
 .content-block__image-wrap {
-    max-height: 140px;
+    min-height: 140px;
 }
 
 .services__content__image {
@@ -925,21 +925,46 @@ body {
 
 @media screen and (max-width: 768px) {
 
-.header{
+.header {
     display: none;
 }
 
+.services .container{
+
+    margin: 0 10px;
+
+}
+
+
+.services__content{
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+
 .services .content-block{
-    width: calc(25% - 20px);
+    /*width: calc(25% - 20px);*/
+    min-width: 150px;
+    margin-right: 10px;
 }
 
     .services .content-block__title{
         font-size: 12px;
         margin-top: 20px;
+        line-height: 1.2;
     }
 
-    img{
+
+
+    .services img {
         height: 70px;
+    }
+
+    .services .content-block__image-wrap{
+
+        min-height: 1px;
+
     }
 
 }
