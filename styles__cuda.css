@@ -284,11 +284,11 @@ body {
 
 }
 
-/*.block-title__subheading{*/
+.block-title__subheading{
 
-/*    color: #3c4761;*/
+    color: #3c4761;
 
-/*}*/
+}
 
 .team .content-block__title {
 
@@ -307,12 +307,24 @@ body {
 
     display: flex;
     flex:1;
-    align-items:  flex-end;
+    /*align-items:  flex-end;*/
     margin: 25px 0 0;
     /*добавил*/
     justify-content: space-between;
+    overflow-y: hidden;
 
 }
+
+.content-block__links{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 25px 0 0;
+    flex:1;
+}
+
 .social-link__image{
     margin: 0 0 0 12px;
 }
@@ -981,6 +993,11 @@ body {
 
     }
 
+.team .container{
+
+    margin: 0 10px;
+
+}
 
     .team .content-block__title{
 
