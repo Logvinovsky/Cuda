@@ -945,11 +945,13 @@ body {
     display: none;
 }
 
-    .introduction .heading{
+    /*.introduction .heading{*/
 
-        margin: 0 5px;
+    /*    margin: 0 5px;*/
 
-    }
+    /*}*/
+
+
 
     .content-block__title{
 
@@ -1046,6 +1048,12 @@ body {
         width: 100px;
     }
 
+    .skills .container{
+
+        margin: 0 10px;
+
+    }
+
     .skills .skills-content{
 
         margin-top: 60px;
@@ -1090,6 +1098,12 @@ body {
     .skills .progress-ring__percent::after{
 
         font-size: 20px;
+
+    }
+
+    .skills-pure .container{
+
+        margin: 0 10px;
 
     }
 
