@@ -177,7 +177,7 @@ body {
     color: #ffffff;
     font-size: 40px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 1;
     text-transform: uppercase;
     text-align: center;
 
@@ -293,6 +293,7 @@ body {
 .team .content-block__title {
 
     color: #3c4761;
+    line-height: 1;
 
 }
 
@@ -344,7 +345,7 @@ body {
 
 .skills{
     background-color: #ffffff;
-    height: 100vh;
+    min-height: 100vh;
 
 }
 
@@ -378,6 +379,7 @@ body {
     margin-top: 85px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 
 }
@@ -476,7 +478,7 @@ body {
 
 .skills-pure{
 
-    height: 100vh;
+    min-height: 100vh;
     background-color: mediumslateblue;
 
 }
@@ -627,6 +629,7 @@ body {
     height: 38px;
     line-height: 38px;
     text-align: center;
+    color: #000000;
 
 }
 
@@ -790,6 +793,7 @@ body {
 
 .feedback .block-title__subheading{
 
+    color: #ffffff;
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
@@ -941,6 +945,12 @@ body {
     display: none;
 }
 
+    .introduction .heading{
+
+        margin: 0 5px;
+
+    }
+
     .content-block__title{
 
         font-size: 20px;
@@ -1002,6 +1012,7 @@ body {
     .team .content-block__title{
 
         margin-top: 30px;
+        line-height: 1;
 
     }
 
@@ -1029,6 +1040,112 @@ body {
 
     }
 
+    .skills svg{
+
+        height: 100px;
+        width: 100px;
+    }
+
+    .skills .skills-content{
+
+        margin-top: 60px;
+    }
+
+    .skills .skills-content__circle:nth-child(3), .skills-content__circle:nth-child(4){
+
+        margin-top: 60px;
+
+    }
+
+    .skills-content__circle{
+
+        width: 50%;
+
+    }
+
+    .skills .progress-ring{
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .skills input{
+
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        padding-left: unset;
+
+    }
+
+    .skills .skill-name{
+
+        font-size: 20px;
+        margin-top: 20px;
+        line-height: 1;
+
+    }
+
+    .skills .progress-ring__percent::after{
+
+        font-size: 20px;
+
+    }
+
+    .skills-pure .circles{
+
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+
+    .skills-pure svg{
+
+        width: 100px;
+        height: 100px;
+
+    }
+
+   /* .circles:nth-child(3), .circles:nth-child(4){*/
+
+   /*    margin-top: 60px;*/
+
+   /*}*/
+
+    .skills-pure .circles{
+
+        margin-top: unset;
+
+    }
+
+    .skills-pure .card{
+
+        margin-top: 60px;
+
+    }
+
+    .skills-pure .card{
+
+        width: 50%;
+
+    }
+
+    .skills-pure .text{
+
+        font-size: 20px;
+        margin-top: 20px;
+        line-height: 1;
+
+    }
+
+    .skills-pure .percents{
+
+        margin-left: 10px;
+        font-size: 20px;
+
+    }
+
     .team .content-block__image-wrap{
         /*border-radius: 50%;*/
         /*overflow: hidden;*/
@@ -1040,4 +1157,85 @@ body {
     /*    min-width: 150px;*/
     /*    margin-right: 10px;*/
     /*}*/
+
+
+    .portfolio .container{
+
+        margin: 0 10px;
+
+    }
+
+    .portfolio img{
+
+        height: 200px;
+
+    }
+
+    .portfolio .portfolio__link{
+
+        width: 75px;
+
+    }
+
+    .portfolio .work-examples__block{
+
+        margin-top: 55px;
+
+    }
+
+    .portfolio .work-examples__name{
+        margin-top: 10px;
+
+    }
+
+    .about .reviews{
+
+        margin-top: unset;
+
+    }
+
+    .about .review{
+
+        margin-top: 80px;
+
+    }
+
+    .about .review__avatar{
+
+    margin-left: 50px;
+
+    }
+
+
+    .feedback .container{
+
+        margin: 0 5px;
+    }
+
+    .feedback .form__content{
+
+        margin-top: 50px;
+
+    }
+
+    .feedback .form__username{
+
+        margin-top: 15px;
+        width: 100%;
+
+    }
+
+    .footer__nav{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+
+    .footer-nav__link{
+
+        line-height: 1;
+        margin: 10px 11px;
+
+    }
 }
