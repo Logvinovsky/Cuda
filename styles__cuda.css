@@ -775,7 +775,7 @@ body {
 .feedback{
 
     background-color: #3c5499;
-    /*height: 100vh;*/
+    min-height: 100vh;
 
 }
 
@@ -911,7 +911,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
-    height: 112px;
+    min-height: 112px;
     align-items: center;
 
 }
