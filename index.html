@@ -380,6 +380,8 @@
                     <div class="progress-ring__percent">
 
                         <input
+
+                                inputmode="numeric"
                                 value="90"
                                 type="text"
                                 placeholder="progress"
@@ -416,6 +418,8 @@
 
                     <div class="progress-ring__percent">
                         <input
+
+                                inputmode="numeric"
                                 value="75"
                                 type="text"
                                 placeholder="progress"
@@ -448,6 +452,8 @@
 
                     <div class="progress-ring__percent">
                         <input
+
+                                inputmode="numeric"
                                 value="70"
                                 type="text"
                                 placeholder="progress"
@@ -481,6 +487,8 @@
                     <div class="progress-ring__percent">
 
                         <input
+
+                                inputmode="numeric"
                                 value="85"
                                 type="text"
                                 placeholder="progress"
@@ -1116,7 +1124,7 @@
         const input = circleWrapper.querySelector("input");
         setProgress(input.value);
 
-        input.addEventListener("change", function (e) {
+        input.addEventListener("input", function (e) {
             if (input.value < 101 && input.value > -1) {
                 setProgress(input.value);
             }

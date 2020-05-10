@@ -154,6 +154,12 @@ body {
 
 }
 
+.services .block-title__subheading{
+
+    color: #ffffff;
+
+}
+
 .services .nav__link:hover{
     background-color: #10ac8f;
 }
@@ -369,7 +375,7 @@ body {
 
 .skills .block-title__subheading{
 
-    color: #3c4761;
+    color: #ffffff;
 
 }
 
@@ -951,10 +957,17 @@ body {
     display: none;
 }
 
+    .block-title{
+
+        padding: 0 10px;
+
+    }
+
     .introduction__container .heading{
 
         /*margin: 0 5px;*/
         font-size: 35px;
+        padding: 0 10px;
 
     }
 
@@ -1240,6 +1253,8 @@ body {
         margin-top: 50px;
 
     }
+
+
 
     .feedback .form__username{
 
