@@ -375,7 +375,7 @@ body {
 
 .skills .block-title__subheading{
 
-    color: #ffffff;
+    color: #3c4761;
 
 }
 
@@ -499,6 +499,12 @@ body {
     width: 150px;
     height: 150px;
     /*z-index: 1000;*/
+
+}
+
+.skills-pure .block-title__subheading{
+
+color: #ffffff;
 
 }
 
